@@ -53,7 +53,7 @@ partial_y_train = y_train[10000:]
 #train model
 model.fit(partial_x_train,
           partial_y_train,
-          epochs=20,
+          epochs=3,  
           batch_size=512,
           validation_data=(x_val,y_val))
 
