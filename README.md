@@ -27,3 +27,19 @@ Just for practice...
 -with 32 unit on each hidden layer = 0.8690
 
 -with 64 unit on each hidden layer = 0.8354
+
+
+# Deferences between loss functions
+
+-Accuracy when binary_crossentropy used = 0.8874 -picked
+
+-Accuracy when mse used                 = 0.8839
+
+
+# Deferences between activation functions
+
+-Accuracy when relu used = 0.8874 -picked
+
+-Accuracy when tanh used = 0.8667
+
+
